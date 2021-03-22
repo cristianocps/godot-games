@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Flappy Bird": {
-      "commandName": "Executable",
-      "executablePath": "E:\\Godot_v3.2.3-stable_mono_win64\\Godot_v3.2.3-stable_mono_win64.exe"
-    }
-  }
-}

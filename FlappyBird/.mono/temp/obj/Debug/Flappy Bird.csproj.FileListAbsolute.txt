@@ -1,8 +1,0 @@
-E:\repos\Pessoal\Godot\FlappyBird\.mono\temp\bin\Debug\Flappy Bird.dll
-E:\repos\Pessoal\Godot\FlappyBird\.mono\temp\bin\Debug\Flappy Bird.pdb
-E:\repos\Pessoal\Godot\FlappyBird\.mono\temp\obj\Debug\Flappy Bird.csprojAssemblyReference.cache
-E:\repos\Pessoal\Godot\FlappyBird\.mono\temp\obj\Debug\Flappy Bird.AssemblyInfoInputs.cache
-E:\repos\Pessoal\Godot\FlappyBird\.mono\temp\obj\Debug\Flappy Bird.AssemblyInfo.cs
-E:\repos\Pessoal\Godot\FlappyBird\.mono\temp\obj\Debug\Flappy Bird.csproj.CoreCompileInputs.cache
-E:\repos\Pessoal\Godot\FlappyBird\.mono\temp\obj\Debug\Flappy Bird.dll
-E:\repos\Pessoal\Godot\FlappyBird\.mono\temp\obj\Debug\Flappy Bird.pdb
