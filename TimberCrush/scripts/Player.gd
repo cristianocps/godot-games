@@ -34,3 +34,9 @@ func right():
 
 func attack():
 	_animation.play("Attack")
+
+func die():
+	_animation.stop()
+	_idle.hide()
+	_attacking.hide()
+	_dead.show()
