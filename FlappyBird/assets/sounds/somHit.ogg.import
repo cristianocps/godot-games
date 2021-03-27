@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/somHit.ogg-23d51a748f0e80e880ae898ee97a7bcd.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/somHit.ogg"
+dest_files=[ "res://.import/somHit.ogg-23d51a748f0e80e880ae898ee97a7bcd.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

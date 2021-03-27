@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://assets/felpudo/felpudoVoa5.png" type="Texture" id=1]
 [ext_resource path="res://assets/felpudo/felpudoVoa1.png" type="Texture" id=2]
@@ -12,6 +12,9 @@
 [ext_resource path="res://scripts/Generator.gd" type="Script" id=10]
 [ext_resource path="res://scripts/Game.gd" type="Script" id=11]
 [ext_resource path="res://assets/game_font.tres" type="DynamicFont" id=12]
+[ext_resource path="res://assets/sounds/somHit.ogg" type="AudioStream" id=13]
+[ext_resource path="res://assets/sounds/somScore.ogg" type="AudioStream" id=14]
+[ext_resource path="res://assets/sounds/somVoa.ogg" type="AudioStream" id=15]
 
 [sub_resource type="Animation" id=1]
 resource_name = "BackgroundAnimation"
@@ -89,13 +92,16 @@ script = ExtResource( 7 )
 position = Vector2( -2707.57, 1742.82 )
 scale = Vector2( 1.4, 1.4 )
 frames = SubResource( 2 )
-frame = 4
+frame = 5
 playing = true
 offset = Vector2( 1919.35, -1242.68 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2( 11.6289, -4.15433 )
 shape = SubResource( 3 )
+
+[node name="FlySound" type="AudioStreamPlayer" parent="Player"]
+stream = ExtResource( 15 )
 
 [node name="ScreenLimits" type="StaticBody2D" parent="."]
 
@@ -149,5 +155,11 @@ align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="ScoreSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 14 )
+
+[node name="HitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 13 )
 [connection signal="timeout" from="Pipes/Generator/Timer" to="Pipes/Generator" method="_on_Timer_timeout"]
 [connection signal="timeout" from="TimeToReplay" to="." method="_on_TimeToReplay_timeout"]
